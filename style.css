@@ -97,11 +97,103 @@ header {
     width: 90%;
     margin: 0 5vw;
     border-radius: 15px;
-    padding: 20px;
+    padding: 40px 30px;
+}
+
+.card .top-button {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.top-button button {
+    padding: 10px 30px;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.top-button button:nth-child(2) {
+    background-color: rgb(236, 234, 234);
+    color: black;
+    border: 0;
+}
+
+.input {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8vw;
+}
+.input .f {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    flex:1;
+}
+.f input {
+    padding: 15px 20px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+}
+
+.l {
+    display: flex;
+    align-items: center;
+    margin-top: 3vw;
+    gap: 5vw;
+}
+.l span {
+    font-size: 3vw;
+    color: gray;
+}
+.l h4 {
+    font-family: sans-serif;
+    font-size: 2vw;
+    color: gray;
 }
 
 .img-side img {
     z-index: 1;
     position: absolute;
     top: 0;
+}
+
+.l-input {
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+    margin-top: 2vw;
+    width: 100%;
+}
+.l-input .h {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.l-input .h input {
+    flex: 1;
+    padding: 20px 30px;
+    width: 350px;
+    border-radius: 30px;
+    border: 1px solid gainsboro;
+}
+
+.l-input .g {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.l-input .g input {
+    flex: 1;
+    padding: 20px 30px;
+    width: 350px;
+    border-radius: 30px;
+    border: 1px solid gainsboro;
 }
