@@ -4,7 +4,6 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     font-family: sans-serif;
-    color: white;
 }
 
 html,
@@ -90,6 +89,15 @@ header {
 
 .link-one, .link-two, .link-three {
     background: transparent;
+}
+.card {
+    position: relative;
+    z-index: 7;
+    background-color: white;
+    width: 90%;
+    margin: 0 5vw;
+    border-radius: 15px;
+    padding: 20px;
 }
 
 .img-side img {
