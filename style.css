@@ -47,8 +47,9 @@ header {
     gap: 1vw;
     background: transparent;
 }
+
 .link-title span {
-    color:white;
+    color: white;
 }
 
 .button button {
@@ -90,9 +91,12 @@ header {
     font-size: 1.2vw;
 }
 
-.link-one, .link-two, .link-three {
+.link-one,
+.link-two,
+.link-three {
     background: transparent;
 }
+
 .card {
     position: relative;
     z-index: 7;
@@ -108,10 +112,11 @@ header {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     gap: 1vw;
 }
+
 .top-button button {
     padding: 10px 30px;
     background: black;
@@ -120,8 +125,8 @@ header {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     gap: 1vw;
     border-radius: 30px;
     font-size: 15px;
@@ -140,13 +145,14 @@ header {
     display: flex;
     width: 100%;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     gap: 8vw;
 }
+
 .input .f {
     margin-top: 10px;
     display: -webkit-box;
@@ -154,13 +160,14 @@ header {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     gap: 1vw;
-    -webkit-box-flex:1;
-        -ms-flex:1;
-            flex:1;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
 }
+
 .f input {
     padding: 15px 20px;
     border: 1px solid gainsboro;
@@ -172,15 +179,17 @@ header {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     margin-top: 3vw;
     gap: 5vw;
 }
+
 .l span {
     font-size: 3vw;
     color: gray;
 }
+
 .l h4 {
     font-family: sans-serif;
     font-size: 2vw;
@@ -198,26 +207,28 @@ header {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     gap: 1vw;
     margin-top: 2vw;
     width: 100%;
 }
+
 .l-input .h {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     gap: 10px;
 }
+
 .l-input .h input {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     padding: 15px 30px;
     width: 30vw;
     border-radius: 30px;
@@ -230,14 +241,15 @@ header {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     gap: 10px;
 }
+
 .l-input .g input {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     padding: 15px 30px;
     width: 30vw;
     border-radius: 30px;
@@ -255,4 +267,26 @@ header {
     width: 30vw;
     border-radius: 15px;
     cursor: pointer;
+}
+
+.top-s-heading {
+    margin-top: 8.4vw;
+    height: 30%;
+    background-color: rgb(255, 115, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.top-s-heading h1 {
+    height: 30%;
+    line-height: 49px;
+    font-size: 4vw;
+    font-weight: 900;
+}
+
+.top-s-heading p {
+    margin-top: 1vw;
 }
